@@ -6,9 +6,9 @@ Better Twitter Widget using Embed.ly to automatically expand links
 <pre>&lt;script src="publitweet.js"&gt;&lt;/script&gt;
 &lt;script&gt;
 new Publitweet({
-feed : 'nytimes/staff',
+feed : 'storify/team',
 filters : {'keywords':'','blacklist':''},
-title :&nbsp; 'Liste @nytimes/staff',
+title :&nbsp; 'Liste @storify/team',
 description : 'Latest tweets',
 headerBackground : '#E7EFF8',
 borderColor : '#323232',
@@ -23,7 +23,7 @@ height : 600&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
 <tr>
 <td>feed <br /></td>
 <td>
-<p>the twitter feed to display (could be a single user 'nytimes' or a twitter list 'nytimes/staff')</p>
+<p>the twitter feed to display (could be a single user 'storify' or a twitter list 'storify/team')</p>
 </td>
 </tr>
 <tr>
