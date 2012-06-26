@@ -3,10 +3,6 @@ publitweet
 
 Better Twitter Widget using Embed.ly to automatically expand links
 
-vascript Widget</h1>
-<p>&nbsp;</p>
-<p>Once your Twitter feed is activated by emailing api (at) publitweet.com you can use the following code:</p>
-<p>&nbsp;</p>
 <pre>&lt;script src="publitweet.js"&gt;&lt;/script&gt;
 &lt;script&gt;
 new Publitweet({
@@ -23,8 +19,7 @@ height : 600&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
 &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
 </pre>
 <h2>Options</h2>
-<p>&nbsp;</p>
-<table border="0" width="963">
+<table border="0">
 <tbody>
 <tr>
 <td>feed <br /></td>
