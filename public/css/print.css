@@ -1,0 +1,91 @@
+/*
+ * Project:   Tweetag (print)
+ * Date:      2009/09/10
+/* ---------------------------------------- */
+
+* { margin: 0; padding: 0; }
+
+html { font-size: 100.01%; }
+body { background: #fff; font-size: 62.5%; }
+
+body, textarea, input, select, option, button { color: #777; font-family: Lucida Grande,Lucida Sans Unicode,sans-serif; line-height: 1.25; }
+li, dt, dd, p, th, td, caption, pre { font-size: 1.2em; }
+ul, ol, dl, p, table, pre, h1, h2, h3, h4, h5, h6 { margin-bottom: 15px; }
+
+a { color: #2680ad; text-decoration: none; }
+a:hover, a:focus, a:active { color: #000; text-decoration: underline; }
+
+ul, ol, dd, blockquote { padding-left: 40px; }
+ul ul, ol ol, ul ol, ol ul { margin-bottom: 0; }
+li *, li p, li li, dt *, dd *, p *, th *, td * { font-size: 1em; }
+
+img { border: none; }
+pre { font-family: "Courier New",monospace; white-space: pre-wrap; }
+table { border-collapse: collapse; border-spacing: 0; }
+button { overflow: visible; padding: 0 10px; }
+
+hr { overflow: hidden; height: 1px; margin: 15px 0 !important; margin: -5px 0 8px; padding: 0; border: none; background-color: #ccc; color: #ccc; }
+*:first-child+html hr { margin: -7px 0 8px !important; }
+
+.offset { position: absolute !important; left: -10001px !important; overflow: hidden !important; }
+
+/* LAYOUT
+------------------------------------------- */
+
+#root { }
+ #top { margin: 0 0 15px; padding: 0 0 15px; border-bottom: 3px double #ccc; }
+   #logo { font-size: 1.8em; margin: 0; }
+    #logo a { color: #000; text-decoration: none; }
+   #skip-links { display: none; }
+  #nav { display: none; }
+  #top-nav { display: none; }
+ #content { }
+  #primary {  }
+  #secondary { }
+ #footer { margin: 15px 0 0; padding: 15px 0 0; border-top: 3px double #ccc; }
+  #footer div.contact { float: right; text-align: right; }
+   #footer p { margin: 0; }
+   
+/* GENERAL
+------------------------------------------- */
+
+/* headers */
+
+h1, h2, h3, h4, h5, h6 { color: #000; font-weight: bold; line-height: 1.2; }
+h1 { font-size: 2.2em; font-weight: normal; }
+h2 { font-size: 1.8em; font-weight: normal; }
+h3 { font-size: 1.6em; font-weight: normal; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.0em; }
+
+/* containers */
+
+div.box-a {  }
+
+div.feature-a { overflow: hidden; width: 100%; min-height: 40px; margin: 0 0 15px; }
+ div.feature-a p.image { float: left; width: 40px; margin: 0 -40px 0 0; }
+  div.feature-a p.image img { float: left; }
+ div.feature-a h3 { margin: 0 0 1px 50px; padding: 4px 0 0; color: #5a5a5a; font-size: 1.2em; font-weight: bold; }
+ div.feature-a p { margin: 0 0 0 50px; color: #8a8a8a; }
+
+div.testimonial-a { margin: 0 0 15px; color: #588ea8; }
+ div.testimonial-a blockquote { margin: 0; padding: 0; }
+  div.testimonial-a blockquote p { margin: 0 0 5px; }
+ div.testimonial-a p.author { margin: 0; font-style: italic; text-align: right; }
+ 
+div.tour-a { }
+
+/* tables */
+
+table { }
+ table th, table td { padding: 5px 10px; border: 1px solid #ccc; }
+
+/* paragraphs */
+
+p.featured-a { color: #336f8b; font-size: 1.4em; }
+ p.featured-a strong { font-weight: normal; vertical-align: -3px; }
+ p.featured-a span { color: #eff8fc; }
+ p.featured-a img { vertical-align: middle; }
+
+/* other */

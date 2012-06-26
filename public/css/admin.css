@@ -1,0 +1,494 @@
+.notice {
+	background:#FFFFCC none repeat scroll 0 0;
+	border:1px solid #DEDEDE;
+	font-size:12px;
+	font-weight:bold;
+	display:none;
+	margin:0px;
+	padding:8px;
+	text-align:center;
+}
+
+#notice {
+	position:absolute;
+	width:350px;
+}
+
+#notice_container {
+	margin-bottom:20px;
+	height:35px;
+	text-align:center;
+}
+
+#main_column {
+	width:900px;
+	margin:0;
+	float:left;
+	
+	}
+	
+.left_column {
+	float:left;
+	width:350px;
+	margin:10px;
+}
+
+#list_of_twitterers {
+	width:350px;
+	margin-left:30px;
+}
+	
+#sidebar {
+	float:left;
+	margin-left:30px;
+	width:280px;
+}
+
+h1 {
+	margin: 30px 0 30px 0;
+	font-size: 24pt;
+}
+
+h1#dashboard {
+	padding-left:45px;
+	background:url('/public/img/home_icon.png') no-repeat 0px 5px;
+}
+
+
+li {
+	list-style: ;
+/*	list-style-type: circle; */
+	font-size: 12pt;
+	margin: 5px;
+	padding: 5px;
+}
+
+#menubar {
+	width: 100%;
+	clear: left;
+	margin: 30px 0 0px 0;
+	height: 20px;
+	background: #9bd5ea;
+	overflow:hidden;
+	display: block;
+	padding:5px;
+}
+
+#menubar ul {
+	padding:0;
+	margin: 0;
+}
+#menubar ul li {
+	display:inline;
+	margin-right:10px;
+	margin-left: 10px;
+	font-size:14pt;
+	padding:0;
+}
+
+.window {
+	border: 1px solid #D6EFFB;
+	margin:0px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:15px;
+	overflow:hidden;
+}
+
+form {
+	margin:30px;
+}
+
+input, select {
+	font-size:14pt;
+	width:250px;
+}
+form input[type=submit], input[type=button] {
+	width:85px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.upgrade input[type=button] {
+	width:auto;
+}
+
+.window .accordion .submit {
+	margin-left:70px;
+}
+
+#login_window .button {
+	width:85px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.window form p {
+	clear:left;
+	width:100%;
+	height:50px;
+}
+
+.window form .form_error p {
+	height:auto;
+}
+
+.form_error {
+	font-weight:bold;
+	color:red;
+	margin-bottom:15px;
+}
+
+.form_error a {
+	padding:5px;
+	border:2px solid darkblue;
+	color:darkblue;
+}
+
+#select input[type=text] {
+	width:165px;
+	font-size:14pt;
+	float:left;
+}
+
+#select input[type=submit] {
+	margin:5px;
+	font-size:14pt;
+	width:55px;
+	float:left;
+}
+
+.settings {
+	width:300px;
+	float:left;
+	margin-left:10px;
+}
+
+#publish_settings {
+	margin-left:10px;
+}
+.settings form {
+	margin:0;
+}
+
+.settings .row {
+	float:none;
+	overflow:hidden;
+	margin-bottom:15px;
+}
+.settings .row label {
+	font-size:12pt;
+	float:none;
+	width:100%;
+}
+
+.settings input, select {
+	float:left;
+	margin:5px;
+	width:230px;
+}
+
+.settings input.small {
+	font-size:9pt;
+}
+
+.settings .submit {
+	width:100px;
+	margin-left:60px;
+}
+
+label {
+	width:150px;
+	display:block;
+	float:left;
+	font-size:14pt;
+}
+
+.window h1 {
+	font-size:18pt;
+	margin:5px 15px 15px 0px;
+	color:black;
+}
+#sidebar p {
+	font-size:10pt;
+}
+
+#sidebar h1 {
+	margin:0;
+	padding:0;
+	font-size:18pt;
+	}
+
+#sidebar .block {
+	margin-bottom:20px;
+}
+
+#channels_list {
+	margin:30px 0 20px 0px;
+	font-size:11pt;
+	width:700px;
+}
+
+info {
+	font-size:10pt;
+	font-weight:normal;
+	color:#AAA;
+}
+
+.accordion info {
+	font-size:8pt;
+	margin-bottom:10px;
+	overflow:hidden;
+	display:block;
+	clear:left;
+}
+
+#breadcrumb {
+	margin:10px;
+}
+
+#controllers {
+	overflow:hidden;
+	margin:10px;
+}
+
+#button_publish {
+	float:right;
+}
+
+#breadcrumb info {
+	left:190px;
+	margin:0 auto;
+	position:relative;
+	top:-30px;
+	color:#333;
+}
+
+.window .add {
+	
+	font-size:9pt;
+	margin-left:20px;
+}
+
+#channels_list th {
+	background:silver;
+}
+#channels_list tr {
+	height:25px;
+	}
+	
+#channels_list .action {
+	float:right;
+}
+
+
+a.favorite {
+	background:url('../img/crystal-stars.png') no-repeat 0 -54px;
+	width:32px;
+	height:32px;
+	display:block;
+}
+
+a.favorite.favorited {
+	background:url('../img/crystal-stars.png') no-repeat 0 -82px;
+}
+
+a.favorite:hover {
+	background:url('../img/crystal-stars.png') no-repeat 0 -110px;
+}
+
+a.del {
+/*	background:url('../img/crystal-del.png') no-repeat 0 3px; */
+	background:url('../img/delete_icon_small.png') no-repeat 4px 4px;
+	width:32px;
+	height:32px;
+	display:block;
+}
+
+
+.tweet .screen_name {
+font-weight:bold;
+margin-right:5px;
+float:left;
+}
+
+.tweet .content {
+font-size:9pt;
+text-align:left;
+margin:0;
+}
+
+.tweet .metadata {
+color:#888;
+font-size:8pt;
+width:100%;
+display:block;
+text-align:left;
+}
+
+.newsfeed_tweet {
+	width:550px;
+	margin:15px;
+	margin-left:100px;
+	border-bottom:1px dashed silver;
+}
+
+.newsfeed_tweet .actions {
+	overflow:hidden;
+	display:block;
+	width:30px;
+	margin-left:520px;
+}
+
+
+.msgbox {
+	width:400px;
+	margin:150px auto;
+	border:1px solid #CCC;
+	padding:20px;
+}
+
+.msgbox h1 {
+	font-size:18pt;
+	margin:0 0 20px 0;
+}
+
+.waitbox {
+	width:400px;
+	margin:150px auto;
+	border:1px solid #CCC;
+	padding:25px 20px 20px 85px;
+	background:url('/public/img/wait24.gif') no-repeat 30px 35px;
+}
+
+form .wait {
+	display:none;
+	width:50px;
+	height:37px;
+	overflow:hidden;
+	background:url('/public/img/wait24.gif') no-repeat center center;
+}
+
+.actions .wait {
+	display:none;
+	width:28px;
+	height:27px;
+	overflow:hidden;
+	background:url('/public/img/wait24.gif') no-repeat center center;
+}
+
+.msg_overlay {
+	margin-top:20px;
+	text-align:center;
+}
+
+
+#preview {
+	margin:0;
+	float:left;
+	width:620px;
+	overflow:hidden;
+	background:white;
+	padding:3px;
+	text-align:center;
+	/* border:1px solid; */
+}
+
+#select #preview {
+	width:250px;
+}
+
+#preview .newsfeed {
+	width:300px;
+}
+
+
+#publish .inner_window {
+	width:890px;
+}
+
+#preview iframe {
+	margin-top:20px;
+}
+
+#publish_settings #code {
+	font-size:8pt;
+	height:50px;
+	width:260px;
+}
+
+#signup {
+	margin:0 auto;
+	overflow:hidden;
+/*	background:transparent url(/public/img/gradientlevel1.png) no-repeat scroll -1100px -1px;*/
+}
+
+#signup .separator {
+	clear:left;
+	border-bottom:1px inset #333;
+	color:#777777;
+	font-size:16pt;
+	font-weight:normal;
+	margin-bottom:25px;
+	margin-top:50px;
+	padding:5px;
+}
+
+#signup form {
+	margin:0px 10px 0px 0px;
+}
+
+#signup .row {
+	margin:15px;
+	clear:left;
+	overflow:hidden;
+	vertical-align:bottom;
+}
+
+#signup .row span {
+	font-size:9pt;
+	margin-top:3px;
+	display:block;
+	padding:0;
+	padding-top:3px;
+}
+
+#signup label {
+	font-size:12pt;
+	margin-left:10px;
+	width:190px;
+	margin-right:20px;
+}
+#signup label info {
+	font-size:8pt;
+	display:block;
+}
+
+#signup input {
+	width:300px;
+}
+
+#signup input[type=radio], #signup input[type=checkbox] {
+	width:20px;
+}
+
+#signup input[type=submit] {
+	margin-top:20px;
+	width:170px;
+}
+
+ul#plan {
+	margin-left:170px;
+	list-style:none;
+}
+
+ul#plan li {
+	font-size:9pt;
+	
+}
+
+ul#plan li info {
+	display:block;
+	margin-left:25px;
+	font-size:8pt;
+}

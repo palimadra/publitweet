@@ -1,0 +1,142 @@
+
+
+
+.scroll {
+	height:540px;
+	overflow:auto;
+	margin:0;
+	padding:0;
+	float:left;
+	width:320px;
+	}
+
+.column {
+	width: 100%;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+}
+
+.column h1 {
+	font-size:18pt;
+	margin: 0 0 20px 0;
+}
+
+/*
+.column ul {
+	padding-left: 10px;
+	margin-left: 10px;
+}
+*/
+
+#form_add_twitterers form {
+padding: 0;
+margin: 0 0 20px;
+overflow:hidden;
+}
+
+.hidden {
+	display: none;
+}
+
+img.wait {
+	margin: 4px;
+	float: left;
+}
+
+#twitterers_list {
+	margin:0 0 0 0;
+	padding:0;
+	}
+
+#twitterers_list li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+
+.twitterer {
+	margin: 0px;
+	padding: 5px;
+/*	float: left;*/
+	clear: left;
+	width: 290px;
+	height: 25px;
+	border-bottom: 1px solid #9BD5EA;
+/*	display: block; */
+}
+
+span.name {
+	width:210px;
+	display:block;
+	float:left;
+	}
+
+span.actions {
+	margin-left: 5px;
+	font-size:9pt;
+}
+
+#twitterers {
+	margin:10px 20px 20px 20px;
+height:540px;
+}
+
+#twitterers input {
+	width:220px;
+}
+
+#twitterers .submit {
+	width:70px;
+}
+
+
+#twitterers h1 {
+	font-size:16pt;
+}
+
+.twitterer img {
+	width:24px;
+	height:24px;
+	float:left;
+	margin:2px;
+	margin-right:5px;	
+}
+
+input {
+	width: 200px;
+	float: left;
+	margin-right: 4px;
+	font-size:14pt;
+}
+
+input.submit {
+	display: block;
+	width: 60px;
+}
+
+
+a.lightbox {
+	border:0px;
+}
+
+a.jScrollArrowUp {
+	background: url(../img/basic_arrow_up.gif) repeat-x 0 0;
+}
+a.jScrollArrowUp:hover {
+	background-position: 0 -15px;
+}
+a.jScrollArrowDown {
+	background: url(../img/basic_arrow_down.gif) repeat-x 0 0;
+}
+a.jScrollArrowDown:hover {
+	background-position: 0 -15px;
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	background-position: 0 -30px;
+}
+
+#menubar {
+margin:30px 0 0 0;
+}

@@ -1,0 +1,611 @@
+/* @override http://localhost/eclipse/tweetag/www/newsroom/css/tweetag_master.css */
+
+body {
+	font-family:Arial,'Lucida Grande',sans-serif;	
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-size:0.70em;
+	margin:0;
+	padding:0;
+}
+
+#tweetag_wrapper {
+	width:650px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#tweetag_stream {
+	margin-top:15px;		
+}
+
+h1 {
+	font-size:1.6em;
+	font-weight:normal;
+/*	letter-spacing:-0.05em;*/
+	text-align:left;
+	margin-top:25px;
+	margin-bottom:10px;
+}
+
+h1.first {
+	margin-top:10px;
+}
+
+#feed h1 {
+	margin-top:10px;
+}
+
+h2 {
+font-size:11pt;
+margin:2px 5px 2px;
+text-align:right;
+/* float:left; */ mess up the hp
+}
+
+#header {
+	border-bottom:1px solid black;
+	padding:10px 0 10px 0;
+	margin-bottom:30px;
+	display:block;
+	overflow:hidden;	
+}
+
+#header h1 {
+background:transparent;
+font-size:20pt;
+color:black;
+font-weight:normal;	
+padding:0;
+margin:0;
+height:40px;
+}
+#header h2 {
+padding:0;
+margin:0;
+background:transparent;
+font-size:10pt;
+color:black;
+font-weight:normal;	
+}
+
+#page {
+width:100%;
+overflow:hidden;
+}
+
+#addthis {
+float:right;	
+}
+
+#feed {
+float:left;
+margin-left:30px;
+margin-bottom:50px;
+overflow:hidden;
+width:610px;
+}
+#twitterers {
+margin-bottom:30px;
+overflow:hidden;	
+}
+span.backtohomepage {
+margin-top:-10px;	
+display:block;
+}
+
+a {
+	color:#265177;
+	text-decoration:none;
+}
+
+a:active, a:hover {
+/*	color:blue;*/
+	text-decoration:underline;
+}
+
+ul, ol, li {
+	padding:0;
+	margin:0;
+}
+ul.idTabs {
+	background:#DEDECE none repeat scroll 0 0;
+border-left:1px solid #C4C5B7;
+border-right:1px solid #C4C5B7;
+height:24px;
+margin-bottom:0;
+margin-top:0;
+}
+ol, ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+}
+
+ul.idTabs li {
+height:24px;
+line-height:24px;
+}
+ul.idTabs li {
+background:transparent none repeat scroll 0 0;
+float:left;
+font-size:0.85em;
+height:24px;
+line-height:24px;
+margin:0 0 0 3px !important;
+width:auto;
+display:list-item;
+}
+
+ul.idTabs li a:active, ul.idTabs li a:hover, .selected {
+background:#CECEBC none repeat scroll 0 0 !important;
+color:#CB5C0D !important;
+font-weight:900;
+text-decoration:none;
+}
+ul.idTabs li a:link, ul.idTabs li a:visited {
+background:transparent none repeat scroll 0 0;
+color:#2A2A2A;
+display:block;
+float:left;
+font-weight:900;
+height:24px;
+line-height:24px;
+text-decoration:none;
+}
+
+.tweetag_tweet {
+	font-size:1.2em;
+	line-height:1.1em;
+
+	clear:left;
+	margin:5px;
+	padding:7px 0 7px 0px;
+	
+/*	border-bottom:1px dashed #D2DADA;*/
+	
+	overflow:hidden;
+	display:block;
+}
+
+.tweetag_tweet_avatar {
+	float:left;
+	overflow:hidden;
+	width:48px;
+	height:48px;
+	margin-right:5px;
+	border:1px solid #C6CBFF;
+}
+
+.tweetag_tweet_reply {
+	margin-left:10px;
+}
+
+.tweetag_tweet_author {
+	font-weight:bold;
+	display:block;
+	float:left;
+	margin-right:5px;
+}
+
+.tweetag_tweet_author a {
+	
+}
+
+.tweetag_tweet_body {
+	
+}
+
+.tweetag_tweet_metadata {
+	overflow:hidden;
+	margin-left:45px;
+	margin-top:2px;
+	/*clear:left;*/
+	font-size: 8pt;
+	display: block;
+	color: #7e7e7e;
+	}
+	
+.tweetag_tweet_metadata_published_at {
+	color:#666666;	
+	display:block;
+	font-family:"Georgia",Arial;
+	font-style:italic;
+	text-align:left;
+	font-size:11px;
+	margin-right:5px;
+	float:left;
+}
+/*
+.twitterer {
+	float:left;
+	margin:1px;	
+	padding:0;
+	overflow:hidden;
+	width:48px;
+	height:48px;
+}
+.twitterer img {
+	overflow:hidden;
+}
+
+.twitterer a {
+	border:0;
+}
+
+.twitterer a:hover {
+	border:1px solid #CCC;
+	margin:1px;
+	overflow:hidden;
+	display:block;
+	width:48px;
+	height:48px;
+	padding:0;	
+}
+*/
+#tweetag_user_profile {
+	border:1px solid #C6CBFF;
+	background:#ECECDB;
+	clear:left;
+	display:block;
+	margin:13px auto 40px;
+	overflow:hidden;
+	padding:15px 10px 10px 10px;
+	width:200px;
+}
+
+#tweetag_user_profile label {
+	font-weight:bold;
+	display:block;
+}
+
+.tweetag_profile_record {
+	display:block;	
+	margin:0 0 5px 0;
+}
+
+.tweetag_twitterer_avatar {
+	float:left;
+	margin:6px 10px 5px 0px;
+	width:73px;
+	height:73px;
+	border:1px solid #C6CBFF;
+}
+
+.tweetag_twitterer_name {
+	
+}
+
+.tweetag_twitterer_description {
+}
+
+.tweetag_twitterer_followers {
+	
+}
+
+.tweetag_twitterer_url {
+	
+}
+
+#tweetag_twitterers {
+		margin:30px 0 20px 0;
+		padding:0;
+		overflow:hidden;
+}
+
+#tweetag_twitterers img {
+	padding:0;
+	margin:5px;
+	border:1px solid #C6CBFF;
+	width:48px;
+}
+
+#tweetag_twitterers a {
+	border:2px solid white;
+	display:block;	
+}
+
+/*
+#tweetag_twitterers a:hover {
+		border:2px solid red;
+}
+*/
+
+.poweredbytweetag {
+background:transparent url(http://tweetag.com/img/tweetag_logo_tiny.png) no-repeat scroll right top;
+clear:left;
+text-align:right;
+padding-right:12px;
+padding-top:6px;
+display:block;
+height:25px;
+overflow:hidden;
+width:105px;
+margin-left:280px;
+}
+
+#tweetag_footer {
+	background:transparent url(http://tweetag.com/img/tweetag_logo_tiny.png) no-repeat scroll right;
+	clear:left;
+	color:#57B0BC;
+	display:block;
+	font-size:7pt;
+	height:26px;
+	margin-bottom:10px;
+	margin-top:0px;
+	overflow:hidden;
+	padding-left:5px;
+	padding-right:17px;
+	padding-top:10px;
+	text-align:right;
+}
+#tweetag_footer a {
+	color:#57B0BC;
+	font-size:7pt;
+	text-decoration:none;
+}
+
+/*
+#tweetag_footer a:hover {
+	color:blue;
+}
+*/
+
+#tweetag_widget_code {
+	margin:10px;
+	width:425px;
+	height:55px;	
+}
+
+#install_widget {
+	float:left;	
+}
+
+/*
+#install_widget a {
+	font-size:11pt;
+}
+*/
+
+
+.shareblock {
+	float:right;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+	width:450px;
+}
+
+.shareblock h3 {
+	font-size:12pt;
+margin:10px 0 0;
+padding-bottom:0;
+}
+
+.share-buttons {
+float:right;
+margin:0;
+padding:5px 0;
+}
+
+.share-buttons li {
+	display:inline;
+float:left;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0 2px;
+padding-top:1px;
+}
+
+.share-buttons a {
+background:transparent url(../img/syndication.gif) no-repeat scroll 0 0;
+}
+.share-buttons a {
+color:#808080;
+display:block;
+font-size:7px;
+height:14px;
+overflow:hidden;
+padding:33px 0 0;
+text-align:center;
+text-decoration:none;
+white-space:nowrap;
+width:46px;
+}
+
+.share-buttons .digg a {
+background-position:0 0;
+}
+
+.share-buttons .digg a:hover {
+background-position:0 -47px;
+}
+
+.share-buttons .twitter a {
+background-position:-46px 0;
+}
+
+.share-buttons .twitter a:hover {
+background-position:-46px -47px;
+}
+
+.share-buttons .stumbleupon a {
+background-position:-92px 0;
+}
+.share-buttons .stumbleupon a:hover {
+background-position:-92px -47px;
+}
+
+.share-buttons .del-icio-us a {
+background-position:-138px 0;
+}
+
+.share-buttons .del-icio-us a:hover {
+background-position:-138px -47px;
+}
+
+.share-buttons .facebook a {
+background-position:-184px 0;
+}
+
+.share-buttons .facebook a:hover {
+background-position:-184px -47px;
+}
+
+.share-buttons .myspace a {
+background-position:-230px 0;
+}
+
+.share-buttons .myspace a:hover {
+background-position:-230px -47px;
+}
+
+.share-buttons .google a {
+background-position:-276px 0;
+}
+.share-buttons .google a:hover {
+background-position:-276px -47px;
+}
+
+.share-buttons .technorati a {
+background-position:-322px 0;
+}
+.share-buttons .technorati a:hover {
+background-position:-322px -47px;
+}
+
+.share-buttons .sharethis a {
+background-position:-460px 0;
+}
+.share-buttons .sharethis a:hover {
+background-position:-460px -47px;
+}
+
+.share-buttons .reddit a {
+background-position:-414px 0;
+}
+
+.share-buttons .reddit a:hover {
+background-position:-414px -47px;
+}
+
+form {
+	margin:40px 20px 40px 20px;	
+}
+
+
+form label {
+clear:left;
+display:block;
+float:left;
+font-size:16pt;
+height:40px;
+width:200px;
+color:#666;
+}
+
+form recordset {
+	margin: 30px 0 10px 0;	
+	display:block;
+}
+
+form p {
+margin:5px 0 5px 0;	
+overflow:hidden;
+}
+
+form select {
+	margin-top:4px;
+}
+form input {
+font-size:14pt;
+}
+
+div.tweet_actions {
+float:right;
+overflow:hidden;
+width:16px;
+height:55px;	
+margin-left:5px;
+}
+
+div.tweet_actions img {
+margin-bottom:0px;
+}
+
+span.tweet_actions.reply {
+float:left;	
+	}
+
+span.tweet_actions.reply a {
+	color:#265177;
+float:left;
+font-family:Arial;
+font-size:8pt;
+font-style:normal;
+font-weight:normal;
+margin:0px 0 0 10px;
+	}
+
+
+#single_status {
+margin-bottom:30px;
+}
+
+#searchbar {
+	float:right;
+	margin-bottom:15px;
+}
+
+#searchbar form {
+	margin:0;
+	padding:0;	
+}
+
+#searchbar form input {
+	font-size:8pt;
+}
+
+.sidebar {
+padding:5px;
+margin-top:5px;
+}
+
+.sidebar h1 {
+margin:0;
+}
+
+.sidebar.active {
+	background:#EEE;	
+}
+
+.sidebar.active {
+	background:#EEE;	
+}
+
+.tweet_url_thumbnail {
+	float:right;
+	margin-left:5px;
+	}
+	
+.error {
+	margin:100px auto;
+	border:4px solid red;
+	padding:30px;
+	width:400px;
+}
+
+.error h1 {
+	margin:0;
+}
+
+.error p {
+	font-size:11pt;
+}
+
+#primary {
+	padding:0 0 100px 0;
+}

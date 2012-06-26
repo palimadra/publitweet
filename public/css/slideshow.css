@@ -1,0 +1,47 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+#carroussel {
+	list-style: none;
+	border: 1px solid darkblue;
+	width:564px;
+	height: 60px;
+	overflow:hidden;
+	margin: 0 auto;
+	padding:0;
+}
+
+#main_image  {
+	margin: 20px auto;
+	width: 467px;
+	position:relative;
+	border: 2px solid darkblue;
+}
+
+#tweet_metadata {
+	color: #7f7f7f;
+	font-size:8pt;
+}
+
+#tweet_screen_name {
+	font-weight: bold;
+}
+
+#tweetag_slideshow {
+	margin: 20px 0 0 20px;
+	width: 600px;
+}
+
+#carroussel ul {
+	position: relative;
+	margin: 0 auto;
+	padding:5px;
+}
+
+#carroussel li {
+	margin: 0;
+	padding:0;
+	display:inline;
+}

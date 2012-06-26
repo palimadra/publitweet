@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+/*-------------------------------------------------------------------- 
+
+[Master Stylesheet] 
+  
+- Project:    Tweetag Slideshow
+- Version:    1.0 
+
+- Author: 	Jeremy Le Van
+- Contact: 	hello@jeremylevan.com
+
+- Last CSS Update: August 30th, 2009 
+			
+-------------------------------------------------------------------*/
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*------Clear Fix------*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+/* End hide from IE-mac */
+/*----------------------*/
+
+
+
+/* main rules */
+
+html {
+	background-color: #ffffff;
+}
+
+body {
+	color: #000000;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+a:link {
+	color: #e50f5e;
+	font: 12px "Lucida Grande", Lucida, Verdana, sans-serif;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #e50f5e;
+	font: 12px "Lucida Grande", Lucida, Verdana, sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e50f5e;
+	font: 12px "Lucida Grande", Lucida, Verdana, sans-serif;
+	text-decoration: underline;
+}
+
+div#container {
+	margin: 0px auto;
+	padding-top: 0px;
+	width:	510px;
+}
+
+
+
+/*************/
+/* carousel */
+div#carousel {
+	margin:0 5px;
+}
+
+div#carousel a img {
+	margin-right: 0px;
+}
+
+div#carousel a img.selected {
+	border: 2px solid #e50f5e;
+}
+
+div#carousel a img.last {
+	margin-right: 0px;
+}
+
+
+/*************/
+/* Controls */
+
+div#controls {
+	margin: 10px 0 5px 0;
+	width: 510px;
+}
+
+div#controls p {
+	color: #999999;
+	display: inline;
+	font-size: 12px;
+}
+
+div#controls p a.previous {
+	display: inline;
+	float: left;
+}
+
+div#controls p.photo_count {
+	margin: 0px 150px;
+}
+
+div#controls p a.next {
+	display: inline;
+	float: right;
+}
+
+
+
+/***************/
+/* Main_image */
+
+div#main_image {
+	background-color: #323232;
+	width: 508px;
+	overflow:hidden;
+}
+
+div#main_image img {
+	border: 1px solid #d2d2d2;
+	display: block;
+	margin: 0px auto;
+}
+
+/********************/
+/* Tweet_container */
+
+div#tweet_container {
+	background: url(../img/tweet_container.gif) 0 0;
+	margin-top: -24px;
+	height: 48px;
+	position: absolute;
+	width: 488px;
+	padding: 22px 0px 0px 20px;
+}
+
+div#tweet_container img {
+	border: 1px solid #d2d2d2;
+	display: inline;
+	float: left;
+	margin-right: 15px;
+}
+
+div#tweet_container p {
+	display: inline;
+}
+
+div#tweet_container p a.author {
+	display: inline;
+	font-weight: bold;
+}
+
+div#tweet_container p.tweet {
+	color: #939393;
+	font-size: 13px;
+}
+
+div#tweet_container p.time {
+	color: #939393;
+	font-size: 11px;
+	font-style: italic;
+}
+
+div.error {
+	width:400px;
+	margin:200px auto;
+	border:5px solid red;
+	padding:15px;
+	text-align:center;
+}

@@ -1,0 +1,932 @@
+div.publitweet {
+font-family:"lucida grande",lucida,tahoma,helvetica,arial,sans-serif !important;
+font-size:12px !important;
+position:relative;
+background:white;
+}
+
+div.publitweet div {
+	margin:0;
+	padding:0;
+	text-align:left !important;
+}
+
+div.publitweet {
+	padding:0px;
+	overflow:hidden;
+	line-height:1.3 !important;
+	text-align:left !important;
+}
+
+div.publitweet ul, div.publitweet ul li, div.publitweet ul li a {
+	padding:0;
+	margin:0 !important;
+	border:0;
+	text-decoration:none !important;
+}
+
+div.publitweet .publitweet-annotation {
+	font-style:italic;
+	margin:10px 0;
+	overflow:hidden;
+	
+}
+
+div.publitweet .attachments {
+	margin:5px 0;
+	overflow:hidden;
+	margin-left:35px !important;
+}
+
+div.publitweet span.hashtag {
+	color:#808080;
+}
+
+div.publitweet .attachment {
+	overflow:hidden;
+	clear:left;
+	margin:5px 0 5px 0px;
+}
+
+div.publitweet .attachment_thumbnail h3 {
+	font-size:8pt;
+	font-weight:normal;
+	float:left;
+/*	padding-left:20px !important;*/
+}
+
+
+div.publitweet .attachment_img {
+	float:left;
+	margin-right:5px;
+	border:1px solid #DDDDDD;
+	padding:1px !important;
+}
+
+div.publitweet .attachment_thumbnail img.thumbnail {
+	padding:1px;
+	border:1px solid #CCC !important;
+	margin-right:5px;
+	float:left;
+	max-width:90px !important;
+}
+
+div.publitweet .attachment img.thumbnail {
+	padding:1px;
+	border:1px solid #CCC !important;
+	margin-right:5px;
+	float:left;
+	max-width:90px !important;
+}
+
+div.publitweet .attachment_img.favicon {
+	border:0 !important;
+	margin-top:1px !important;
+	margin-right:3px !important;
+	width:16px;
+	height:16px;
+}
+
+div.publitweet .attachment_img.favicon.inner {
+	margin:0;
+}
+
+div.publitweet .attachment_img.favicon img {
+	margin-right:3px;
+	border:0;
+	width:16px;
+	height:16px;
+}
+
+div.publitweet .description_block {
+	margin-top:2px;
+	overflow:hidden;
+}
+
+div.publitweet .description_block .description {
+	color:#808080;
+	font-size:8pt;
+}
+
+div.publitweet .attachment_thumbnail div.description {
+	padding-top:3px;
+	margin-top:4px;
+	color:#555;
+	font-size:8pt;
+	clear:left;
+}
+
+
+div.publitweet div.metadata {
+	font-size:7pt;
+	clear:left;
+	margin-left:40px;
+	color:#808080;
+	float:left;
+}
+
+div.publitweet div.timesince {
+	float:left;
+	margin-right:10px;
+	margin-left:25px;
+	padding-top:2px !important;
+}
+
+div.publitweet div.timesince a {
+	color:#808080;
+}
+
+div.publitweet div.publitweet-actions {
+	float:left;
+	overflow:hidden;
+	min-height:15px;
+	padding:0px 5px;
+	font-size:7pt;
+	position:absolute;
+	display:none;
+	right:0px;
+}
+
+div.publitweet div.publitweet-actions label {
+	color:#808080;
+	float:left;
+	padding-top:2px;
+	margin-right:4px;
+	line-height:14px !important;
+	font-size:7pt !important;
+}
+
+div.publitweet div.publitweet-actions a {
+	background:url('http://beta.publitweet.com/public/img/sharetweet.png') no-repeat 0 0;
+	width:16px;
+	float:left;
+	height:16px;
+	margin-right:3px;
+	display:block;
+	padding:0 !important;
+}
+
+div.publitweet div.publitweet-actions .ShareTwitter:hover {
+	background:url('http://beta.publitweet.com/public/img/sharetweet.png') no-repeat -32px 0px;
+}
+
+div.publitweet div.publitweet-actions .ShareFacebook:hover {
+	background:url('http://beta.publitweet.com/public/img/sharetweet.png') no-repeat 0 0;
+}
+
+div.publitweet div.publitweet-actions .ShareEmail:hover {
+	background:url('http://beta.publitweet.com/public/img/sharetweet.png') no-repeat -16px 0px;
+}
+
+div.publitweet div.publitweet-actions .ShareTwitter {
+	background:url('http://beta.publitweet.com/public/img/sharetweet.png') no-repeat -32px -16px;
+}
+
+div.publitweet div.publitweet-actions .ShareFacebook {
+	background:url('http://beta.publitweet.com/public/img/sharetweet.png') no-repeat 0 -16px;
+}
+
+div.publitweet div.publitweet-actions .ShareEmail {
+	background:url('http://beta.publitweet.com/public/img/sharetweet.png') no-repeat -16px -16px;
+}
+
+
+div.publitweet div.publitweet-tweet div.publitweet-action {
+	margin-right:7px;
+	font-size:7pt;
+	min-height:15px;
+}
+
+div.publitweet div.publitweet-actions .custom_actions {
+	background:none;
+	overflow:hidden;
+	float:left;
+	padding-top:3px;
+}
+
+div.publitweet div.publitweet-actions .custom_actions a {
+	background:none !important;
+	overflow:hidden;
+	width:auto;
+	margin-right:7px;
+}
+
+
+div.publitweet-fullscreen {
+font-size:220% !important;
+}
+div.publitweet-fullscreen div.publitweet-new-results {
+}
+
+
+div.publitweet-inactive {
+display:none;
+}
+
+
+div.publitweet a {
+text-decoration:none !important;
+color:#3B5998;
+border:0 !important;
+}
+
+div.publitweet a:hover {
+	text-decoration:underline !important;
+}
+
+div.publitweet a img {
+border:0 none !important;
+padding:0 !important;
+}
+
+div.publitweet-body {
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+	padding:0px 0px 0px 5px !important;
+}
+
+div.publitweet-body .timeline {
+	padding-right:3px;
+}
+
+div.publitweet-body .timeline.featured {
+
+
+}
+
+div.publitweet-body .timeline.featured .publitweet-tweet {
+
+}
+
+div.publitweet .featuredTweets {
+	border-bottom:0px solid;
+}
+
+div.publitweet .featured {
+/*	background:#FFF9E7;*/
+}
+
+
+div.publitweet-body h3.featuredTweets  {
+	font-size:13pt !important;
+	padding:10px 0 !important;
+	overflow:hidden;
+}
+
+div.publitweet-body h3.liveTweets  {
+	font-size:13pt !important;
+	padding:10px 0 !important;
+	overflow:hidden;
+}
+
+div.publitweet-body .publitweet-loading {
+	background:url("/public/img/wait20.gif") no-repeat scroll left top transparent;
+	border:0 none;
+	color:#555555;
+	height:20px;
+	margin:10px auto;
+	padding-left:35px;
+	padding-top:1px;
+	width:60px;
+	}
+
+
+div.publitweet div.publitweet-tweet-wrap {
+overflow:hidden;
+padding:5px 1px;
+position:relative;
+width:100%;
+clear:left;
+}
+div.publitweet-fullscreen div.publitweet-tweet-wrap {
+padding:20px;
+}
+div.publitweet div.publitweet-tweet {
+border-bottom:1px dotted #DDDDDD;
+overflow:hidden;
+margin:3px 0px;
+}
+
+div.publitweet div.publitweet-tweet.highlight {
+	border:2px solid #3B5998;
+	margin-right:5px;
+	padding:10px;
+	}
+
+	div.publitweet div.publitweet-tweet.sponsored {
+		background:lightyellow;
+		margin-right:5px;
+		padding:10px;
+	}
+
+	div.publitweet div.sponsoredLabel {
+		font-size:7pt;
+		color:#555;
+		float:right;
+	}
+
+div.publitweet-profile imgdiv.publitweet-profile-img {
+border:0 none !important;
+display:block;
+float:left;
+height:31px;
+width:31px;
+}
+div.publitweet h3, div.publitweet h4, div.publitweet p {
+line-height:1.2 !important;
+margin:0 !important;
+padding:0 !important;
+border:0 !important;
+width:auto !important;
+}
+div.publitweet-profile h3, div.publitweet-profile h4 {
+margin:0 0 0 40px !important;
+}
+div.publitweet h3, div.publitweet h3 a {
+font-size:11px !important;
+font-weight:normal !important;
+}
+div.publitweet h4 {
+font-size:16px !important;
+}
+div.publitweet i, div.publitweet div.publitweet-new-results {
+display:block;
+font-size:9px;
+font-style:normal;
+margin-top:2px;
+}
+div.publitweet div.publitweet-new-results {
+bottom:5px;
+display:block;
+margin:0 auto -10px;
+padding:3px;
+position:relative;
+text-align:center;
+}
+div.publitweet-results-inner {
+bottom:-2px;
+font-size:100%;
+line-height:1;
+margin:0 auto;
+padding:4px 0;
+position:relative;
+text-align:center;
+width:40%;
+z-index:2;
+}
+div.publitweet-results-hr {
+background:none repeat scroll 0 0 transparent;
+border-bottom:1px dotted #DDDDDD;
+bottom:7px;
+height:1px;
+overflow:hidden;
+position:relative;
+width:100%;
+z-index:1;
+}
+div.publitweet-new-results span {
+display:block;
+font-size:9px !important;
+position:relative;
+top:-14px;
+z-index:3;
+}
+div.publitweet-fullscreen div.publitweet-new-results span {
+font-size:24px !important;
+}
+div.publitweet-header {
+overflow:hidden;
+padding:5px !important;
+border-top:1px solid #CCC;
+border-left:1px solid #CCC;
+border-right:1px solid #CCC;
+-moz-border-radius-topleft:5px;
+-webkit-border-top-left-radius: 5px;
+-moz-border-radius-topright: 5px;
+-webkit-border-top-right-radius: 5px;
+position:relative;
+}
+div.publitweet-fullscreen div.publitweet-header {
+height:0;
+padding:0;
+}
+div.publitweet-timeline {
+-moz-border-radius:6px 6px 6px 6px;
+height:225px;
+overflow:hidden;
+position:relative;
+z-index:2;
+}
+div.publitweet-scroll div.publitweet-timeline {
+overflow-x:hidden;
+overflow-y:auto;
+}
+div.publitweet div.publitweet-tweet:last-child {
+border-bottom-width:0;
+}
+div.publitweet-ft {
+height:26px;
+font-size:8pt;
+border-bottom:1px solid #CCCCCC;
+border-left:1px solid #CCCCCC;
+border-right:1px solid #CCCCCC;
+padding:6px 6px 3px 6px !important;
+background:white;
+overflow:hidden;
+-moz-border-radius-bottomleft:5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-webkit-border-bottom-right-radius: 5px;
+}
+div.publitweet > div.publitweet-ft {
+	height:14px;
+}
+
+div.publitweet-ft div {
+overflow:hidden;
+padding:0px;
+}
+div.publitweet-ft span.pbt-poweredby {
+float:right;
+text-align:right;
+}
+div.publitweet-ft a {
+display:block;
+float:left;
+}
+div.publitweet-ft span.pbt-poweredby a {
+float:none;
+}
+
+div.publitweet div.publitweet-subscribe {
+float:left;
+padding:0;
+margin:0;
+width:195px !important;
+}
+
+div.publitweet div.publitweet-subscribe .pbt-label {
+	margin-right:5px;
+	font-size:8pt !important;
+	float:left;
+	width:auto;
+	line-height:15px !important;
+}
+
+div.publitweet div.publitweet-subscribe a {
+margin-right:10px;
+}
+
+
+div.publitweet-avatar {
+display:block;
+float:left;
+height:30px;
+overflow:hidden;
+width:30px;
+padding-top:3px !important;
+}
+div.publitweet-fullscreen div.publitweet-avatar {
+height:80px;
+width:80px;
+}
+div.publitweet-img {
+padding:0px 0px 0px 0px !important;
+height:25px;
+width:25px;
+}
+div.publitweet-img img {
+padding:0px !important;
+height:30px;
+width:30px;
+}
+div.publitweet-fullscreen div.publitweet-img img {
+height:72px;
+width:72px;
+}
+
+div.publitweet-tweet-content {
+margin-left:36px !important;
+overflow:hidden;
+color:black;
+}
+div.publitweet-fullscreen div.publitweet-tweet-content {
+margin-left:90px;
+}
+
+div.publitweet-author {
+	font-weight:bold !important;
+}
+
+div.publitweet .domain {
+	color:#808080;
+}
+
+div.publitweet #emailInput_window {
+	margin-top:5px;
+	margin-left:40px;
+	overflow:hidden;
+	width:100%;
+	clear:left;
+}
+
+div.publitweet #email_msg {
+	width:380px;
+	height:50px;
+	font-size:8pt;
+	margin-right:100px;
+}
+
+div.publitweet div.publitweet-tabs {
+	margin-top:0px;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+}
+
+div.publitweet div.publitweet-tabs ul {
+	border-bottom:1px solid #CCCCCC;
+	padding:3px 0 2px 4px !important;
+}
+
+div.publitweet div.publitweet-tabs ul li {
+	border-bottom:0 none;
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	border-top:1px solid #CCCCCC;
+	display:inline;
+	margin:0px 3px 0px 0px !important;
+	padding:2px 5px;
+	cursor:pointer;
+	background:#EEE;
+}
+
+div.publitweet div.publitweet-tabs ul li:hover {
+	background:#EEE;
+}
+
+div.publitweet div.publitweet-tabs ul li.selected {
+	background:white;
+	border-bottom:1px solid white !important;
+}
+
+
+div.publitweet #emailInput_window label {
+	font-weight:bold;
+	display:block;
+	font-size:8pt !important;
+}
+
+div.publitweet #emailInput_window div.row {
+	float:left;
+	margin-right:10px;
+	margin-top:5px;
+}
+
+div.publitweet #emailInput_window div.clearleft {
+clear:left;
+}
+
+div.publitweet #emailInput_window input[type=text], div.publitweet #emailInput_window input[type=email]{
+	width:180px;
+}
+div.publitweet #emailInput_window input[type=submit]{
+	margin-top:5px;
+}
+div.publitweet #emailInput_window input[type=button]{
+	margin-top:5px;
+}
+
+/* FANCY BOX CSS */
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Copyright (c) 20010 Janis Skarnelis
+ * Examples and documentation at: http://fancybox.net
+ *
+ * Version: 1.3.0 (02/02/2010)
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+ 
+#fancybox-loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	height: 40px;
+	width: 40px;
+	margin-top: -20px;
+	margin-left: -20px;
+	cursor: pointer;
+	overflow: hidden;
+	background: transparent;
+	z-index: 1104;
+	display: none;
+}
+
+* html #fancybox-loading {	/* IE6 */
+	position: absolute;
+	margin-top: 0;
+}
+
+#fancybox-loading div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 480px;
+	background: transparent url('/public/img/fancybox/fancy_loading.png') no-repeat;
+}
+
+#fancybox-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #000;
+	z-index: 1100;
+	display: none;
+}
+
+* html #fancybox-overlay {	/* IE6 */
+	position: absolute;
+	width: 100%;
+}
+
+#fancybox-tmp {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	overflow: auto;
+	display: none;
+}
+
+#fancybox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 20px;
+	z-index: 1101;
+	display: none;
+}
+
+#fancybox-outer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #FFF;
+}
+
+#fancybox-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: 0;
+	outline: none;
+	overflow: hidden;
+}
+
+#fancybox-hide-sel-frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+}
+
+#fancybox-close {
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	width: 32px;
+	height: 32px;
+	background: url('/public/img/fancybox/fancy_close.png') top left no-repeat;
+	cursor: pointer;
+	z-index: 1103;
+	display: none;
+}
+
+#fancybox_error {
+	color: #444;
+	font: normal 12px/20px Arial;
+}
+
+#fancybox-content {
+	height: auto;
+	width: auto;
+	padding: 0;
+	margin: 0;
+}
+
+#fancybox-img {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+	line-height: 0;
+	vertical-align: top;
+	-ms-interpolation-mode: bicubic;
+}
+
+#fancybox-frame {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: none;
+	display: block;
+}
+
+#fancybox-title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-family: Arial;
+	font-size: 12px;
+	z-index: 1102;
+}
+
+.fancybox-title-inside {
+	padding: 10px 0;
+	text-align: center;
+	color: #333;
+}
+
+.fancybox-title-outside {
+	padding-top: 5px;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+}
+
+.fancybox-title-over {
+	color: #FFF;
+	text-align: left;
+}
+
+#fancybox-title-over {
+	padding: 10px;
+	background: url('/public/img/fancybox/fancy_title_over.png');
+	display: block;
+}
+
+#fancybox-title-wrap {
+	display: inline-block;
+}
+
+#fancybox-title-wrap span {
+	height: 32px;
+	float: left;
+}
+
+#fancybox-title-left {
+	padding-left: 15px;
+	background: transparent url('/public/img/fancybox/fancy_title_left.png') repeat-x;
+}
+
+#fancybox-title-main {
+	font-weight: bold;
+	line-height: 29px;
+	background: transparent url('/public/img/fancybox/fancy_title_main.png') repeat-x;
+	color: #FFF;
+}
+
+#fancybox-title-right {
+	padding-left: 15px;
+	background: transparent url('/public/img/fancybox/fancy_title_right.png') repeat-x;
+}
+
+#fancybox-left, #fancybox-right {
+	position: absolute;
+	bottom: 0px;
+	height: 100%;
+	width: 35%;
+	cursor: pointer;
+	outline: none;
+	background-image: url('/public/img/fancybox/blank.gif');
+	z-index: 1102;
+	display: none;
+}
+
+#fancybox-left {
+	left: 0px;
+}
+
+#fancybox-right {
+	right: 0px;
+}
+
+#fancybox-left-ico, #fancybox-right-ico {
+	position: absolute;
+	top: 50%;
+	left: -9999px;
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	cursor: pointer;
+	z-index: 1102;
+	display: block;
+}
+
+#fancybox-left-ico {
+	background: transparent url('/public/img/fancybox/fancy_nav_left.png') no-repeat;
+}
+
+#fancybox-right-ico {
+	background: transparent url('/public/img/fancybox/fancy_nav_right.png') no-repeat;
+}
+
+#fancybox-left:hover, #fancybox-right:hover {
+	visibility: visible;    /* IE6 */
+}
+
+#fancybox-left:hover span {
+	left: 20px;
+}
+
+#fancybox-right:hover span {
+	left: auto;
+	right: 20px;
+}
+
+div.fancy-bg {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	z-index: 1001;
+}
+
+div#fancy-bg-n {
+	top: -20px;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	background: transparent url('/public/img/fancybox/fancy_shadow_n.png') repeat-x;
+}
+
+div#fancy-bg-ne {
+	top: -20px;
+	right: -20px;
+	width: 20px;
+	height: 20px;
+	background: transparent url('/public/img/fancybox/fancy_shadow_ne.png') no-repeat;
+}
+
+div#fancy-bg-e {
+	top: 0;
+	right: -20px;
+	height: 100%;
+	width: 20px;
+	background: transparent url('/public/img/fancybox/fancy_shadow_e.png') repeat-y;
+}
+
+div#fancy-bg-se {
+	bottom: -20px;
+	right: -20px;
+	width: 20px;
+	height: 20px;
+	background: transparent url('/public/img/fancybox/fancy_shadow_se.png') no-repeat;
+}
+
+div#fancy-bg-s {
+	bottom: -20px;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	background: transparent url('/public/img/fancybox/fancy_shadow_s.png') repeat-x;
+}
+
+div#fancy-bg-sw {
+	bottom: -20px;
+	left: -20px;
+	width: 20px;
+	height: 20px;
+	background: transparent url('/public/img/fancybox/fancy_shadow_sw.png') no-repeat;
+}
+
+div#fancy-bg-w {
+	top: 0;
+	left: -20px;
+	height: 100%;
+	width: 20px;
+	background: transparent url('/public/img/fancybox/fancy_shadow_w.png') repeat-y;
+}
+
+div#fancy-bg-nw {
+	top: -20px;
+	left: -20px;
+	width: 20px;
+	height: 20px;
+	background: transparent url('/public/img/fancybox/fancy_shadow_nw.png') no-repeat;
+}

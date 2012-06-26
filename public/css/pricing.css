@@ -1,0 +1,97 @@
+#subtitle {
+	padding-left:100px;
+	background:url('/public/img/moneyback.png') no-repeat top left;
+	height:80px;
+	width:540px;
+	padding-top:10px;
+}
+
+#level1 {
+	height:auto;
+}
+
+#level1 h1 {
+	font-weight:normal;
+	font-size:30pt;
+	color:black;
+	font-family:Helvetica,Arial;
+	margin-bottom:30px;
+}
+
+h2 {
+	font-size:11pt;
+	margin:0;
+	color:black;
+}
+
+h3 {
+	font-size:10pt;
+	margin:0;
+	margin-top:5px;
+	color:black;
+	padding:0;
+	color:#888;
+}
+
+#level1 .inner {
+	padding:50px 0 35px;
+}
+
+table#pricing {
+	border:1px solid #D7D7D7;
+}
+
+tr {
+	margin:10px 0px 10px 0px;
+}
+tr.first {
+	color:#333;
+	height:75px;
+	vertical-align:top;
+	font-size:7pt;
+}
+
+tr.second {
+	font-size:7pt;
+	height:50px;
+	vertical-align:top;
+}
+
+tr.signup {
+	font-size:6pt;
+	color:#333;
+}
+
+tr.signup a {
+	font-size:12pt;
+}
+
+th {
+	width:250px;
+	padding-left:20px;
+	color:black;
+	text-align:left;
+}
+
+td {
+	width:125px;
+	text-align:center;
+	color:#333333;
+}
+
+tr.odd {
+	background:#F7F7F7;
+}
+
+.plan_title {
+	color:black;
+	font-size:14pt;
+	margin-bottom:5px;
+	display:block;
+	font-weight:bold;
+}
+
+.price {
+	font-size:18pt;
+	color:#21AE35;
+}

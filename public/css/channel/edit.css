@@ -1,0 +1,195 @@
+#primary {
+	padding-top:10px;
+}
+
+#breadcrumb ol.steps-a {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(/public/img/step-a.png) no-repeat scroll 0 0;
+height:40px;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+/* margin:0 auto 50px; */
+padding:0;
+position:relative;
+width:600px;
+cursor:pointer;
+margin:40px auto;
+}
+#breadcrumb ol.steps-a li {
+height:30px;
+left:0;
+position:absolute;
+top:0;
+width:170px;
+cursor:pointer;
+}
+#breadcrumb ol.steps-a li.edit {
+left:210px;
+height:30px;
+cursor:pointer;
+}
+#breadcrumb ol.steps-a li.publish {
+left:400px;
+height:30px;
+cursor:pointer;
+}
+#breadcrumb ol.steps-a li span {
+left:-10001px;
+position:absolute;
+top:-10001px;
+}
+#breadcrumb ol.steps-a li.strong {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(/public/img/step-a.png) no-repeat scroll -10px -44px;
+display:block;
+height:30px;
+overflow:hidden;
+text-indent:-10001px;
+width:25%;
+}
+#breadcrumb ol.steps-a li.edit.strong {
+background-position:-215px -44px;
+}
+#breadcrumb ol.steps-a li.publish.strong {
+background-position:-410px -44px;
+}
+
+#user_channels_list {
+	
+	font-size:16pt;
+	width:200px;
+}
+
+#select.window {
+	padding:15px;
+}
+
+#select_twitterers {
+	width:100%;
+	float:left;
+	margin:20px;
+}
+
+#select_twitterers input {
+/*	width:200px;*/
+} 
+
+#select_twitterers h1 {
+	font-size:15pt;
+}
+
+#select_twitterers img {
+	width:24px;
+	height:24px;
+}
+
+span.actions {
+	float:left;
+}
+
+.column {
+	float:left;
+	margin-right:10px;
+	width:300px;
+}
+
+#edit_feed {
+}
+
+#edit_feed input {
+	width:250px;
+}
+
+#moderate {
+}
+
+#moderate.newsfeed .tweet {
+	width:510px;
+}
+
+#moderate .tweet .content {
+	font-size:8pt;
+}
+
+#livefeed {
+	width:620px;
+	margin:0 auto;
+}
+
+#livefeed.slideshow {
+	width:890px;
+}
+
+#livefeed.newsfeed {
+	margin:0px 0px 0px 330px;
+}
+
+.newsfeed_tweet {
+	margin:15px;
+}
+
+
+	.tweet {
+		display:block;
+		overflow:hidden;
+		width:500px;
+		float:left;
+		padding-top:10px;
+		}
+
+	.vignette {
+		display:block;
+		overflow:hidden;
+		width:160px;
+		height:275px;
+		border:1px solid black;
+		padding:2px;
+		float:left;
+		text-align:center;
+		margin:5px;
+		}
+
+	.vignette .image {
+		height:150px;
+		width:150px;
+	}
+
+	.vignette .tweet {
+		width:150px;
+	}
+
+	.tweet .avatar {
+		float:left;
+		margin:2px 5px 2px 2px;
+		width:48px;
+		height:48px;
+		overflow:hidden;
+	}
+
+	.vignette .link {
+		font-size:8pt;
+		color:darkblue;
+	}
+
+	.vignette .link.url {
+		display:none;
+	}
+
+	.vignette .avatar {
+	width:24px;
+	height:24px;
+			}
+
+
+	.vignette .actions .left_actions {
+		float:left;
+	}
+
+	.vignette .actions .right_actions {
+		float:right;
+	}

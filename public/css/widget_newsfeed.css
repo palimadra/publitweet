@@ -1,0 +1,390 @@
+body {
+font-family:Arial,'Lucida Grande',sans-serif;
+font-size:0.7em;
+font-size-adjust:none;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+margin:0;
+padding:0;
+background:white;
+}
+
+#publitweet_wrapper {
+padding:0;
+width:530px;
+}
+#publitweet_stream {
+margin-top:15px;
+}
+h1 {
+color:#FFFFFF;
+font-size:1.6em;
+font-weight:normal;
+letter-spacing:-0.05em;
+margin:0;
+padding:0.2em 0.5em;
+text-align:left;
+}
+/*
+h1 {
+border-bottom:1px dotted #8B8B8B;
+color:#515151;
+font-size:18px;
+font-weight:normal;
+line-height:30px;
+margin-bottom:8px;
+padding-left:7px;
+}
+*/
+h2 {
+float:left;
+font-size:11pt;
+margin:2px 5px;
+text-align:right;
+}
+a:active, a:hover {
+color:#265177;
+text-decoration:underline;
+}
+ul, ol, li {
+margin:0;
+padding:0;
+}
+ul.idTabs {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#DEDECE none repeat scroll 0 0;
+border-left:1px solid #C4C5B7;
+border-right:1px solid #C4C5B7;
+height:24px;
+margin-bottom:0;
+margin-top:0;
+}
+ol, ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+}
+ul.idTabs li {
+height:24px;
+line-height:24px;
+}
+ul.idTabs li {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent none repeat scroll 0 0;
+display:list-item;
+float:left;
+font-size:0.85em;
+height:24px;
+line-height:24px;
+margin:0 0 0 3px !important;
+width:auto;
+}
+ul.idTabs li a:active, ul.idTabs li a:hover, .selected {
+-moz-background-clip:border !important;
+-moz-background-inline-policy:continuous !important;
+-moz-background-origin:padding !important;
+background:#CECEBC none repeat scroll 0 0 !important;
+color:#CB5C0D !important;
+font-weight:900;
+text-decoration:none;
+}
+ul.idTabs li a:link, ul.idTabs li a:visited {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent none repeat scroll 0 0;
+color:#2A2A2A;
+display:block;
+float:left;
+font-weight:900;
+height:24px;
+line-height:24px;
+text-decoration:none;
+}
+.publitweet_tweet {
+border-bottom:1px dashed #D2DADA;
+clear:left;
+display:block;
+font-size:1.2em;
+line-height:1.1em;
+margin:5px;
+overflow:hidden;
+padding:7px 0 7px 0;
+}
+.publitweet_tweet_avatar {
+border:1px solid #C6CBFF;
+float:left;
+height:48px;
+margin-right:5px;
+overflow:hidden;
+width:48px;
+}
+.publitweet_tweet_author {
+display:block;
+float:left;
+font-weight:bold;
+margin-right:5px;
+}
+.publitweet_tweet_author a {
+}
+.publitweet_tweet_body {
+	margin-left:45px;
+	margin-right:25px;
+	margin-top:-2px;
+	display:block;
+	overflow:hidden;
+	font-family:verdana,sans-serif;
+	line-height:15px;
+	font-size:11px;
+}
+.publitweet_tweet_metadata {
+color:#666666;
+display:block;
+font-family:"Georgia",Arial;
+font-size:11px;
+font-style:italic;
+text-align:left;
+margin-top:3px;
+clear:left;
+}
+.twitterer {
+float:left;
+margin:0;
+padding:0;
+}
+#publitweet_user_profile {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#EFEFEF none repeat scroll 0 0;
+border:1px solid #CACACA;
+clear:left;
+display:block;
+margin-bottom:20px;
+margin-top:10px;
+overflow:hidden;
+padding:15px 10px 10px;
+}
+#publitweet_user_profile label {
+display:block;
+float:left;
+font-weight:bold;
+width:90px;
+}
+.publitweet_profile_record {
+display:block;
+margin:0 0 5px;
+padding-left:95px;
+}
+.publitweet_twitterer_avatar {
+border:1px solid #C6CBFF;
+float:left;
+height:73px;
+margin:0 0 5px 5px;
+width:73px;
+}
+.publitweet_twitterer_name {
+}
+.publitweet_twitterer_description {
+}
+.publitweet_twitterer_followers {
+}
+.publitweet_twitterer_url {
+}
+#publitweet_twitterers {
+clear:both;
+margin:30px 0 20px;
+overflow:hidden;
+padding:0;
+}
+#publitweet_twitterers img {
+border:1px solid #C6CBFF;
+margin:5px;
+padding:0;
+width:48px;
+}
+#publitweet_twitterers a {
+border:2px solid white;
+display:block;
+height:52px;
+width:52px;
+}
+#publitweet_footer {
+
+clear:both;
+color:#57B0BC;
+display:block;
+font-size:7pt;
+height:26px;
+margin-bottom:10px;
+margin-top:20px;
+overflow:hidden;
+padding-left:5px;
+padding-right:17px;
+padding-top:4px;
+text-align:right;
+}
+#publitweet_footer a {
+color:#57B0BC;
+font-size:7pt;
+text-decoration:none;
+}
+#publitweet_widget_code {
+height:55px;
+margin:10px;
+width:425px;
+}
+#install_widget {
+float:left;
+}
+#publitweet_footer #install_widget a {
+display:block;
+float:left;
+font-size:7pt;
+font-weight:bold;
+}
+a:hover {
+color:#00DDFF;
+}
+a {
+border:0 none;
+color:#00BBD8;
+text-decoration:underline;
+}
+
+h2 {
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+}
+#publitweet_footer {
+margin:0;
+}
+.publitweet_tweet_author a {
+color:black;
+text-decoration:none;
+}
+ul#publitweet_multipage {
+clear:left;
+display:inline;
+float:right;
+margin:10px 5px 15px;
+}
+ul#publitweet_multipage li {
+display:inline;
+margin:5px;
+}
+ul#publitweet_multipage a {
+color:#265177;
+text-decoration:none;
+}
+ul#publitweet_multipage li.publitweet_page_selected {
+font-weight:bold;
+text-decoration:underline;
+}
+
+
+
+#publitweet_wrapper {
+width:290px;	
+}
+
+.publitweet_tweet_author a {
+	float:left;
+	margin-right:5px;
+}
+
+.publitweet_tweet_body {
+}
+
+.publitweet_tweet {
+	font-size:1.2em;
+	margin:3px;
+	height:70px;
+	overflow:hidden;
+	display:block;
+	padding:5px 0 5px 0;
+}
+
+.publitweet_tweet_avatar {
+	width:38px;
+	height:38px;
+	margin-right:4px;
+}
+.publitweet_tweet_avatar img {
+	width:38px;
+	height:38px;
+}
+
+#publitweet_footer {
+	margin-top:5px;
+}
+
+
+
+#publitweet_wrapper .tweet_actions {
+	float:right;
+	width:20px;
+	height:50px;
+	margin-left:4px;
+}
+
+#publitweet_wrapper .tweet_actions img {
+margin-bottom:2px;
+}
+
+#publitweet_wrapper .source {
+	overflow:hidden;
+	font-size:7pt;	
+	text-align:right;
+}
+
+#publitweet_wrapper label {
+	font-weight:bold;
+}
+
+#publitweet_wrapper .attachment .website {
+	font-size:8pt;
+	height:14px;
+	overflow:hidden;
+	width:75%;
+	padding:2px;
+}
+
+#publitweet_wrapper .attachment .website img {
+	float:left;
+	margin-top:-1px;
+	margin-right:5px;
+	width:16px;
+	height:16px;
+}
+
+#publitweet_wrapper .attachment .picture img {
+	border:1px solid #CCCCCC;
+	margin-top:5px;
+	padding:2px;
+}
+
+
+#publitweet_wrapper span.hashtag_handle {
+	background:#EEE none repeat scroll 0 0;
+	color:#666666;
+	margin-right:2px;
+	margin-left:-2px;
+}
+
+#publitweet_wrapper a.hashtag {
+	border:1px solid #CCC;
+	padding:0px 2px;
+	font-size:7.5pt;
+	color:#666;
+}
+
+#publitweet_wrapper a.hashtag:hover {
+	background:rgb(51,204,255);
+	color:white;
+}

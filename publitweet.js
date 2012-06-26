@@ -1088,7 +1088,7 @@ function Publitweet(settings) {
 			if(this.feed.indexOf('favorites')!=-1)
 				url = 'http://api.twitter.com/1/favorites.json?id='+this.getTwitterUserFromFeed(this.feed)+'&per_page='+this.limit+'&other=';
 			else
-				url = 'http://api.twitter.com/1/'+this.getTwitterUserFromFeed(this.feed)+'/lists/'+this.getTwitterListNameFromFeed(this.feed)+'/statuses.json';
+				url = 'http://api.twitter.com/1/lists/statuses.json?owner_screen_name='+this.getTwitterUserFromFeed(this.feed)+'&slug='+this.getTwitterListNameFromFeed(this.feed)+'&include_rts=1';
 		}
 		else {
 				url = 'http://api.twitter.com/1/statuses/user_timeline/'+this.getTwitterUserFromFeed(this.feed)+'.json';
