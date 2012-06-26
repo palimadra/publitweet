@@ -16,7 +16,6 @@ width : 500,
 height : 600&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
 }).show();&nbsp;&nbsp; &nbsp;
 &lt;/script&gt;
-&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
 </pre>
 <h2>Options</h2>
 <table border="0">
@@ -68,7 +67,6 @@ height : 600&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
 <td>height <br /></td>
 <td>
 <p>Height in pixels of the widget (can be 'auto' to automatically adjust height based on the tweets displayed, useful if you don't want to have a vertical scrollbar)</p>
-<p>&nbsp;</p>
 </td>
 </tr>
 <tr>
@@ -105,10 +103,6 @@ height : 600&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<h2>&nbsp;</h2>
 <h2>Performance</h2>
-<p>&nbsp;</p>
 <p>The Publitweet widget was designed for big publishers with millions of page requests. It is very efficient in terms of load.</p>
-<p>&nbsp;</p>
 <p>For example, the javascript code is separated in two parts.&nbsp;One cached by the browser that never needs to be refreshed and another containing tweets that is continuously updated. The former is loaded with the page. As it is cached by the client it is not a problem for performance. The latter is loaded on demand when the widget starts loading so it doesn't penalize the loading time of your page. In fact, if the Publitweet widget never appears (for example if you put the widget at the bottom of your page and the user doesn't scroll down), it will never get loaded.</p>
